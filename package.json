@@ -1,0 +1,55 @@
+{
+  "name": "messchow-email-input",
+  "version": "1.0.2",
+  "private": false,
+  "author": "messchow",
+  "description": "A EmailInput for Vue.js.",
+  "main": "lib/messchow-email-input.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "package": "vue-cli-service build --target lib ./src/messchow-email-input/index.js --name messchow-email-input --dest lib",
+    "publish": "npm publish",
+    "lint": "vue-cli-service lint"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "clipboard": "^2.0.10",
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
