@@ -1,6 +1,6 @@
 {
   "name": "messchow-email-input",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "private": false,
   "author": "messchow",
   "description": "A EmailInput for Vue.js.",
